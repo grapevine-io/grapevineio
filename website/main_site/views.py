@@ -7,7 +7,7 @@ from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
 class IndexView(TemplateView):
-    template_name = 'index.html'
+    template_name = 'main_site/index.html'
 
     def get_queryset(self):
         pass
